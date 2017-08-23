@@ -242,7 +242,8 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
+    $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf \
+    $(LOCAL_PATH)/configs/thermal-engine-8953.conf:system/etc/thermal-engine-8953.conf
 
 # Wifi
 PRODUCT_PACKAGES += \
